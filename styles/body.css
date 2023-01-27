@@ -1,0 +1,236 @@
+main {
+    padding: 0px 0px 70px 0px !important;
+}
+
+p {
+    font-family: Roboto;
+}
+
+.home--locations {
+    margin: 40px auto 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.home--locations h2 {
+    font-size: 25px;
+    margin: 52px 0px 0px;
+}
+
+.plumtree--Shimla h3 {
+    font-size: 38px;
+    color: #c92020;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 700;
+    font-style: normal;
+    margin: 404px 0px 0px;
+}
+
+.plumtree--Shimla p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: Roboto;
+}
+
+.plumtree--Shimla img {
+    margin: 20px 0px 0px;
+    padding: 5%;
+    width: 90%;
+}
+
+.plumtree--ratnari {
+    padding: 5%;
+}
+
+.plumtree--ratnari h3 {
+    font-size: 38px;
+    color: #c92020;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.plumtree--ratnari p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.plumtree--ratnari img {
+    margin: auto;
+    padding: 5%;
+    width: 90%;
+}
+
+.btn-outline-secondary {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: black !important;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.featured--in h3 {
+    font-size: 50px;
+    color: #bc2b2b;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nat--geo {
+    border: 1px solid #ccc;
+    height: 300px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.nat--geo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px;
+}
+
+.nat--geo p {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+}
+
+.empty--space {
+    min-height: 40px;
+}
+
+.Why--us h3 {
+    font-size: 50px;
+    color: #bc2b2b;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.features {
+    padding: 16px;
+}
+
+.features h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+    font-family: Amatic SC;
+}
+
+.features p {
+    padding: 10px 0px 0px;
+}
+
+.preferences {
+    margin: 5px 5px 0px;
+    text-align: left;
+}
+
+.btn-default {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: black !important;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.PlumTree--Observatory--heading {
+    font-size: 50px;
+    color: #bc2b2b;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subhead {
+    font-size: 30px;
+    color: #000000;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.PlumTree--Observatory img {
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+}
+
+.observatory--1 {
+    color: black;
+    font-size: 16px;
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 95px;
+    margin-bottom: 10px;
+}
+
+.observatory--2 {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 95px;
+}
+
+.observatory--3 {
+    text-align: left;
+    margin-left: 97px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .featured--in--flexbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto 0px 0px 4%;
+    }
+    .nat--geo {
+        width: 29%;
+    }
+    .empty--space {
+        min-height: 40px;
+    }
+}
