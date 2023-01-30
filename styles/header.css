@@ -1,6 +1,11 @@
 .navbar {
     display: flex;
     background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    margin-bottom: 20px;
 }
 
 .navbar--contents {
@@ -19,8 +24,8 @@
 .nav-branding {
     width: 200px;
     height: 80px;
-    padding: 0px;
-    margin-left: 14px;
+    padding: 0px 0px 5px;
+    margin-left: 25px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -58,6 +63,12 @@
     display: block;
     transition: 0.3s;
     font-family: Amatic SC;
+    border-bottom: 1px solid #dbdbdb;
+    margin: 0px 20px;
+}
+
+.sidepanel a .no--border {
+    border: none;
 }
 
 .sidepanel a:hover {
@@ -92,4 +103,73 @@
 
 .openbtn:hover {
     background-color: black;
+}
+
+.small--nav {
+    display: none;
+    background: #f7f0ea none repeat center center;
+}
+
+@media (min-width: 782px) {
+    .small--nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .nav-email {
+        width: 100%;
+        display: flex;
+        font-family: Amatic sc;
+        justify-content: end;
+    }
+    .nav-email p {
+        margin-right: 35px;
+        text-align: end;
+    }
+}
+
+@media (min-width: 992px) {
+    .small--nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .nav-mobile {
+        display: flex;
+        width: 50%;
+        font-family: Amatic sc;
+        justify-content: center;
+    }
+    .openbtn,
+    .closebtn {
+        display: none;
+    }
+    .nav-menu {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        font-family: Amantic Sc;
+        list-style: none;
+        align-self: center;
+        align-items: center;
+    }
+    .nav-item a {
+        font: normal 20px / 27px "Amatic Sc", Helvetica, Arial, Verdana, sans-serif;
+        word-spacing: normal;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.nav-branding {
+    width: 30%;
+    justify-content: end;
+}
+
+.navbar--contents {
+    width: 36%;
 }

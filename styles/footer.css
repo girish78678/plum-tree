@@ -44,3 +44,31 @@
 .instagram :hover {
     color: #1ebbf0;
 }
+
+@media (min-width: 768px) {
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 16px;
+        margin: 70px 0px 0px 0px !important;
+        justify-content: space-evenly;
+    }
+    .copyright {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-section {
+        justify-content: center;
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    .social--links {
+        justify-content: flex-start;
+        width: 50%;
+    }
+}

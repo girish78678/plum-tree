@@ -15,6 +15,7 @@ p {
     display: flex;
     flex-direction: column;
     padding: 20px 0px;
+    max-width: 1300px;
 }
 
 .home--locations h2 {
@@ -31,6 +32,7 @@ p {
     font-weight: 700;
     font-style: normal;
     margin: 404px 0px 0px;
+    padding-top: 50px;
 }
 
 .plumtree--Shimla p {
@@ -132,6 +134,11 @@ p {
     min-height: 40px;
 }
 
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .Why--us h3 {
     font-size: 50px;
     color: #bc2b2b;
@@ -229,6 +236,7 @@ p {
     text-align: left;
     margin-left: 97px;
     margin-top: 10px;
+    padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
@@ -244,5 +252,84 @@ p {
     }
     .empty--space {
         min-height: 40px;
+    }
+    .home--locations {
+        display: flex;
+        flex-direction: row;
+        padding-top: 222px;
+    }
+    .plumtree--Shimla {
+        width: 50%;
+        margin-left: 23px;
+    }
+    .plumtree--Shimla h3 {
+        padding-top: 0px;
+        padding-bottom: 1px;
+    }
+    .plumtree--Shimla img {
+        margin-top: 0px;
+    }
+    .plumtree--ratnari {
+        width: 50%;
+        margin: 404px 0px 0px 0px;
+    }
+    .cottage--features {
+        display: flex;
+        flex-direction: row;
+    }
+    .features {
+        width: 25%;
+    }
+    main {
+        padding: 0px 0px 0px 0px ! important;
+    }
+    .observatory--flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    .observatory--flexbox p {
+        line-height: 1.5;
+    }
+    .PlumTree--Observatory img {
+        width: 60%;
+        margin: auto;
+        padding-left: 50px;
+        align-self: flex-start;
+    }
+    .observatory--image--caption {
+        /* width: 70%;
+        align-self: center;
+        padding-right: 40px; */
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    .observatory--image {
+        width: 100%;
+    }
+    .observatory--image img {
+        width: 70%;
+    }
+    .observatory--1 {
+        color: black;
+        font-size: 16px;
+        padding-top: 75px;
+        text-align: left;
+        padding-left: 95px;
+        width: 50%;
+    }
+    .observatory--2 {
+        color: black;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 95px;
+    }
+    .observatory--3 {
+        text-align: left;
+        margin-left: 97px;
+        margin-bottom: 10px;
     }
 }
