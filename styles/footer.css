@@ -18,5 +18,29 @@
 }
 
 .fa {
-    background: #d5ebce;
+    color: black;
+}
+
+.facebook {
+    background: none;
+}
+
+.twitter {
+    background: none;
+}
+
+.instagram {
+    background: none;
+}
+
+.facebook :hover {
+    color: #1ebbf0;
+}
+
+.twitter:hover {
+    color: #1ebbf0;
+}
+
+.instagram :hover {
+    color: #1ebbf0;
 }
