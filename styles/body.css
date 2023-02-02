@@ -108,7 +108,7 @@ p {
     border-top: 1px solid #dbdbdb;
 }
 
-.nat--geo {
+.Our--Reviews {
     border: 1px solid #ccc;
     height: 300px;
     border-radius: 30px;
@@ -116,18 +116,48 @@ p {
     margin: 0px 4px;
 }
 
-.nat--geo img {
-    max-width: 100%;
-    height: auto;
+.Our--Reviews img {
+    max-width: 80%;
+    height: 42px;
     display: block;
-    margin: 0 auto 40px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    border-radius: 50%;
 }
 
-.nat--geo p {
+.Amit img {
+    border-radius: 30%;
+}
+
+.review--images {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.reviewers--name {
+    margin-left: 10px;
+}
+
+.Our--Reviews h3 {
+    font-family: "Amatic Sc";
+    font-size: 20px;
+}
+
+.Our--Reviews h4 {
+    font-size: 14px;
+    font-family: "Roboto";
+    opacity: 0.5;
+}
+
+.Our--Reviews p {
+    margin-top: 1px;
+    font-family: roboto;
     text-align: center;
     font-style: italic;
     font-size: 14px;
     color: black;
+    font-family: 'Roboto';
+    line-height: 1.2;
 }
 
 .empty--space {
@@ -247,7 +277,7 @@ p {
         justify-content: center;
         margin: auto 0px 0px 0px;
     }
-    .nat--geo {
+    .Our--Reviews {
         width: 25%;
     }
     .empty--space {
@@ -311,7 +341,7 @@ p {
         width: 100%;
     }
     .observatory--image img {
-        width: 70%;
+        width: 80%;
     }
     .observatory--1 {
         color: black;
