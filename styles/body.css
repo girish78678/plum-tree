@@ -18,6 +18,10 @@ p {
     max-width: 1300px;
 }
 
+.reviewers--name {
+    margin-left: 10px;
+}
+
 .home--locations h2 {
     font-size: 25px;
     margin: 52px 0px 0px;
@@ -135,12 +139,12 @@ p {
 }
 
 .reviewers--name {
-    margin-left: 10px;
+    margin-left: 16px;
 }
 
 .Our--Reviews h3 {
     font-family: "Amatic Sc";
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .Our--Reviews h4 {
@@ -150,7 +154,7 @@ p {
 }
 
 .Our--Reviews p {
-    margin-top: 1px;
+    margin-top: 30px;
     font-family: roboto;
     text-align: center;
     font-style: italic;
@@ -277,9 +281,6 @@ p {
         justify-content: center;
         margin: auto 0px 0px 0px;
     }
-    .Our--Reviews {
-        width: 25%;
-    }
     .empty--space {
         min-height: 40px;
     }
@@ -361,5 +362,24 @@ p {
         text-align: left;
         margin-left: 97px;
         margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Our--Reviews {
+        width: 25%;
+    }
+    .Our--Reviews p {
+        margin-top: 1px;
+        font-family: roboto;
+        text-align: center;
+        font-style: italic;
+        font-size: 14px;
+        color: black;
+        font-family: 'Roboto';
+        line-height: 1.2;
+    }
+    .reviewers--name {
+        margin-left: 10px;
     }
 }
