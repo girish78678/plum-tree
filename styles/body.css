@@ -1,5 +1,5 @@
 main {
-    padding: 0px 0px 70px 0px !important;
+    padding: 0px 0px 32px 0px !important;
 }
 
 p {
@@ -101,6 +101,11 @@ p {
     margin-bottom: 10px;
 }
 
+.featured--in--flexbox {
+    display: flex;
+    overflow-y: scroll;
+}
+
 .featured--in h3 {
     font-size: 50px;
     color: #bc2b2b;
@@ -114,10 +119,13 @@ p {
 
 .Our--Reviews {
     border: 1px solid #ccc;
-    height: 300px;
     border-radius: 30px;
     padding: 15px;
-    margin: 0px 4px;
+    margin: 0px 0px 0px 15px;
+}
+
+.Our--Reviews+.Our--Reviews {
+    margin-left: 10px;
 }
 
 .Our--Reviews img {
@@ -142,6 +150,11 @@ p {
     margin-left: 16px;
 }
 
+.review--images p {
+    text-align: left;
+    margin: 0 auto;
+}
+
 .Our--Reviews h3 {
     font-family: "Amatic Sc";
     font-size: 25px;
@@ -154,18 +167,16 @@ p {
 }
 
 .Our--Reviews p {
-    margin-top: 30px;
+    margin-left: 16px;
+    margin-top: 2px;
     font-family: roboto;
-    text-align: center;
+    text-align: left;
     font-style: italic;
     font-size: 14px;
     color: black;
     font-family: 'Roboto';
     line-height: 1.2;
-}
-
-.empty--space {
-    min-height: 40px;
+    width: 280px;
 }
 
 .wrapper {
@@ -220,6 +231,7 @@ p {
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-family: 'roboto';
 }
 
 .PlumTree--Observatory--heading {
@@ -255,7 +267,7 @@ p {
     font-size: 16px;
     padding-top: 25px;
     text-align: left;
-    padding-left: 95px;
+    padding-left: 25px;
     margin-bottom: 10px;
 }
 
@@ -263,24 +275,40 @@ p {
     color: black;
     font-size: 16px;
     text-align: left;
-    padding-left: 95px;
+    padding-left: 25px;
 }
 
 .observatory--3 {
     text-align: left;
-    margin-left: 97px;
+    margin-left: 27px;
     margin-top: 10px;
     padding-bottom: 40px;
+    font-family: 'Roboto';
+}
+
+.observatory--3 a {
+    font-family: 'Roboto';
+}
+
+@media (min-width: 476px) {
+    .Our--Reviews p {
+        margin-left: 16px;
+        margin-top: 2px;
+        font-family: roboto;
+        text-align: left;
+        font-style: italic;
+        font-size: 14px;
+        color: black;
+        font-family: 'Roboto';
+        line-height: 1.2;
+        width: 380px;
+    }
+    .empty--space {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
-    .featured--in--flexbox {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto 0px 0px 0px;
-    }
     .empty--space {
         min-height: 40px;
     }
@@ -367,6 +395,20 @@ p {
 
 @media (min-width: 992px) {
     .Our--Reviews {
+        border: 1px solid #ccc;
+        height: 300px;
+        border-radius: 30px;
+        padding: 15px;
+        margin: 0px 4px;
+    }
+    .featured--in--flexbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto 0px 0px 0px;
+    }
+    .Our--Reviews {
         width: 25%;
     }
     .Our--Reviews p {
@@ -381,5 +423,29 @@ p {
     }
     .reviewers--name {
         margin-left: 10px;
+    }
+    .review--images {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 1px;
+        max-width: 992px;
+    }
+    br {
+        margin-top: 2px;
+    }
+    .Our--Reviews p {
+        margin-top: 2px;
+        font-family: roboto;
+        text-align: left;
+        font-style: italic;
+        font-size: 14px;
+        color: black;
+        font-family: 'Roboto';
+        line-height: 1.2;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Our--Reviews+.Our--Reviews {
+        margin-left: 0px;
     }
 }
