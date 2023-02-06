@@ -6,6 +6,13 @@ p {
     font-family: Roboto;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #main {
     padding: 0px 0px 70px 0px !important;
 }
@@ -32,8 +39,8 @@ p {
     color: #c92020;
     line-height: 2;
     text-align: center;
-    font-family: Amatic SC;
-    font-weight: 700;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 400;
     font-style: normal;
     margin: 404px 0px 0px;
     padding-top: 50px;
@@ -65,8 +72,8 @@ p {
     color: #c92020;
     line-height: 2;
     text-align: center;
-    font-family: Amatic SC;
-    font-weight: 700;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -111,8 +118,8 @@ p {
     color: #bc2b2b;
     line-height: 2;
     text-align: center;
-    font-family: Amatic SC;
-    font-weight: 400;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 200;
     font-style: normal;
     border-top: 1px solid #dbdbdb;
 }
@@ -156,7 +163,7 @@ p {
 }
 
 .Our--Reviews h3 {
-    font-family: "Amatic Sc";
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 25px;
 }
 
@@ -189,8 +196,8 @@ p {
     color: #bc2b2b;
     line-height: 2;
     text-align: center;
-    font-family: Amatic SC;
-    font-weight: 400;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 200;
     font-style: normal;
     text-align: center;
 }
@@ -204,7 +211,8 @@ p {
     text-align: center;
     font-weight: bold;
     color: #333333;
-    font-family: Amatic SC;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 150;
 }
 
 .features p {
@@ -256,6 +264,17 @@ p {
     margin-bottom: 10px
 }
 
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
 .PlumTree--Observatory img {
     width: 90%;
     margin: auto;
@@ -275,6 +294,16 @@ p {
     color: black;
     font-size: 16px;
     text-align: left;
+    @media screen and (max-height: 450px) {
+        .overlay a {
+            font-size: 20px
+        }
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
     padding-left: 25px;
 }
 
