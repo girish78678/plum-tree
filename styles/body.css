@@ -1,0 +1,480 @@
+main {
+    padding: 0px 0px 32px 0px !important;
+}
+
+p {
+    font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    padding: 0px 0px 70px 0px !important;
+}
+
+.home--locations {
+    margin: 40px auto 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    max-width: 1300px;
+}
+
+.reviewers--name {
+    margin-left: 10px;
+}
+
+.home--locations h2 {
+    font-size: 25px;
+    margin: 52px 0px 0px;
+}
+
+.plumtree--Shimla h3 {
+    font-size: 38px;
+    color: #c92020;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 404px 0px 0px;
+    padding-top: 50px;
+}
+
+.plumtree--Shimla p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    padding: 0 5%;
+}
+
+.plumtree--Shimla img {
+    margin: 10px 0px 0px;
+    padding: 0px 5%;
+    width: 90%;
+}
+
+.plumtree--ratnari {
+    padding: 0 5%;
+    margin-top: 35px;
+}
+
+.plumtree--ratnari h3 {
+    font-size: 38px;
+    color: #c92020;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.plumtree--ratnari p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.plumtree--ratnari img {
+    margin: auto;
+    padding: 0px 10px;
+    width: 96%;
+}
+
+.btn-outline-secondary {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: black !important;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.featured--in--flexbox {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.featured--in h3 {
+    font-size: 50px;
+    color: #bc2b2b;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-top: 1px solid #dbdbdb;
+}
+
+.Our--Reviews {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0px 0px 0px 15px;
+}
+
+.Our--Reviews+.Our--Reviews {
+    margin-left: 10px;
+}
+
+.Our--Reviews img {
+    max-width: 80%;
+    height: 42px;
+    display: block;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.Amit img {
+    border-radius: 30%;
+}
+
+.review--images {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.reviewers--name {
+    margin-left: 16px;
+}
+
+.review--images p {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.Our--Reviews h3 {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.Our--Reviews h4 {
+    font-size: 14px;
+    font-family: "Roboto";
+    opacity: 0.5;
+}
+
+.Our--Reviews p {
+    margin-left: 16px;
+    margin-top: 2px;
+    font-family: roboto;
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    font-family: 'Roboto';
+    line-height: 1.2;
+    width: 280px;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.Why--us h3 {
+    font-size: 50px;
+    color: #bc2b2b;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+
+.features {
+    padding: 16px;
+}
+
+.features h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 150;
+}
+
+.features p {
+    padding: 10px 0px 0px;
+}
+
+.preferences {
+    margin: 5px 5px 0px;
+    text-align: left;
+}
+
+.btn-default {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: black !important;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'roboto';
+}
+
+.PlumTree--Observatory--heading {
+    font-size: 50px;
+    color: #bc2b2b;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.subhead {
+    font-size: 30px;
+    color: #000000;
+    line-height: 2;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.PlumTree--Observatory img {
+    width: 90%;
+    margin: auto;
+    padding: 0 5%;
+}
+
+.observatory--1 {
+    color: black;
+    font-size: 16px;
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.observatory--2 {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    @media screen and (max-height: 450px) {
+        .overlay a {
+            font-size: 20px
+        }
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+    padding-left: 25px;
+}
+
+.observatory--3 {
+    text-align: left;
+    margin-left: 27px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    font-family: 'Roboto';
+}
+
+.observatory--3 a {
+    font-family: 'Roboto';
+}
+
+@media (min-width: 476px) {
+    .Our--Reviews p {
+        margin-left: 16px;
+        margin-top: 2px;
+        font-family: roboto;
+        text-align: left;
+        font-style: italic;
+        font-size: 14px;
+        color: black;
+        font-family: 'Roboto';
+        line-height: 1.2;
+        width: 380px;
+    }
+    .empty--space {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .empty--space {
+        min-height: 40px;
+    }
+    .home--locations {
+        display: flex;
+        flex-direction: row;
+        padding-top: 222px;
+    }
+    .plumtree--Shimla {
+        width: 50%;
+        margin-left: 23px;
+    }
+    .plumtree--Shimla h3 {
+        padding-top: 0px;
+        padding-bottom: 1px;
+    }
+    .plumtree--Shimla img {
+        margin-top: 0px;
+    }
+    .plumtree--ratnari {
+        width: 50%;
+        margin: 404px 0px 0px 0px;
+    }
+    .cottage--features {
+        display: flex;
+        flex-direction: row;
+    }
+    .features {
+        width: 25%;
+    }
+    main {
+        padding: 0px 0px 0px 0px ! important;
+    }
+    .observatory--flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    .observatory--flexbox p {
+        line-height: 1.5;
+    }
+    .PlumTree--Observatory img {
+        width: 60%;
+        margin: auto;
+        padding-left: 50px;
+        align-self: flex-start;
+    }
+    .observatory--image--caption {
+        /* width: 70%;
+        align-self: center;
+        padding-right: 40px; */
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    .observatory--image {
+        width: 100%;
+    }
+    .observatory--image img {
+        width: 80%;
+    }
+    .observatory--1 {
+        color: black;
+        font-size: 16px;
+        padding-top: 75px;
+        text-align: left;
+        padding-left: 95px;
+        width: 50%;
+    }
+    .observatory--2 {
+        color: black;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 95px;
+    }
+    .observatory--3 {
+        text-align: left;
+        margin-left: 97px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Our--Reviews {
+        border: 1px solid #ccc;
+        height: 300px;
+        border-radius: 30px;
+        padding: 15px;
+        margin: 0px 4px;
+    }
+    .featured--in--flexbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto 0px 0px 0px;
+    }
+    .Our--Reviews {
+        width: 25%;
+    }
+    .Our--Reviews p {
+        margin-top: 1px;
+        font-family: roboto;
+        text-align: center;
+        font-style: italic;
+        font-size: 14px;
+        color: black;
+        font-family: 'Roboto';
+        line-height: 1.2;
+    }
+    .reviewers--name {
+        margin-left: 10px;
+    }
+    .review--images {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 1px;
+        max-width: 992px;
+    }
+    br {
+        margin-top: 2px;
+    }
+    .Our--Reviews p {
+        margin-top: 2px;
+        font-family: roboto;
+        text-align: left;
+        font-style: italic;
+        font-size: 14px;
+        color: black;
+        font-family: 'Roboto';
+        line-height: 1.2;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Our--Reviews+.Our--Reviews {
+        margin-left: 0px;
+    }
+}
